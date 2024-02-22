@@ -34,8 +34,8 @@ const service = () => {
                 <Image
                   src="/Arrow Circle Right.svg"
                   alt="save"
-                  width={500}
-                  height={500}
+                  width={50}
+                  height={50}
                 />
               </a>
             </div>
@@ -55,8 +55,8 @@ const service = () => {
                 <Image
                   src="/Arrow Circle Right.svg"
                   alt="Pers loan"
-                  width={500}
-                  height={500}
+                  width={50}
+                  height={50}
                 />
               </a>
             </div>
@@ -64,8 +64,8 @@ const service = () => {
               <Image
                 className="transform hover:scale-110 transition-all duration-300 "
                 src="/service-3.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="ser-3"
               ></Image>
               <a
@@ -76,8 +76,8 @@ const service = () => {
                 <Image
                   src="/Arrow Circle Right.svg"
                   alt="deposit"
-                  width={300}
-                  height={300}
+                  width={50}
+                  height={50}
                 />
               </a>
             </div>
@@ -85,8 +85,8 @@ const service = () => {
               <Image
                 className="transform hover:scale-110 transition-all duration-300"
                 src="/service-4.png"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
                 alt="ser-4"
               ></Image>
               <a
@@ -97,8 +97,8 @@ const service = () => {
                 <Image
                   src="/Arrow Circle Right.svg"
                   alt="auto loan"
-                  width={300}
-                  height={300}
+                  width={50}
+                  height={50}
                 />
               </a>
             </div>
