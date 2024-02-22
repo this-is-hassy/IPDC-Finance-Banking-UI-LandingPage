@@ -50,7 +50,8 @@ const hero = () => {
               LOAN CALCULATOR
             </button>
 
-            <div className="absolute -bottom-8 max-sm:bottom-28">
+            <div className="absolute -bottom-8 max-sm:bottom-4 h-min">
+            {/* <div className="flex justify-start align-baseline h-min-screen"> */}
               <div className="flex items-center ">
                 <a href="#" className="flex items-center mr-6">
                   <Image src="/call.svg" alt="contact" width={40} height={40} />
