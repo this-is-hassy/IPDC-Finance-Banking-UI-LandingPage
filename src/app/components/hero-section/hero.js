@@ -5,7 +5,7 @@ const hero = () => {
   return (
     <>
       <div className={styles.spacing}>
-        <div className="flex justify-start w-1/2 max-sm:w-full max-sm:h-screen max-sm:px-4">
+        <div className="flex justify-start w-1/2 max-sm:w-full max-sm:h-min-screen max-sm:px-4">
           <div data-aos="fade-right" className="items-center">
             <div
               data-aos="zoom-out"

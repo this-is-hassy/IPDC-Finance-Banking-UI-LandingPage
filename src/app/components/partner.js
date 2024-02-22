@@ -53,9 +53,9 @@ const partner = () => {
         </div>
 
         <div className="pt-16 flex justify-center items-baseline">
-          <img className="pl-4" src="/Ellipse 2.svg" alt="page2" />
-          <img className="pl-4" src="/Ellipse 3.svg" alt="page3" />
-          <img className="pl-4" src="/Ellipse 4.svg" alt="page4" />
+          <Image className="pl-4" src="/Ellipse 2.svg" alt="page2" width={30} height={30}/>
+          <Image className="pl-4" src="/Ellipse 3.svg" alt="page3" width={30} height={30}/>
+          <Image className="pl-4" src="/Ellipse 4.svg" alt="page4" width={30} height={30}/>
         </div>
       </div>
     </>
