@@ -93,7 +93,7 @@ const service = () => {
                 href="#"
                 className="flex justify-between pt-5 text-dumb_black font-semibold text-22px"
               >
-                IPDC auto loan
+                IPDC Finance auto loan
                 <Image
                   src="/Arrow Circle Right.svg"
                   alt="auto loan"
