@@ -23,7 +23,7 @@ const hero = () => {
                 CAR LOAN
               </button>
 
-              <button className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-[500px] right-10 shadow-xl font-bold">
+              <button className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] -bottom-[530px] right-10 shadow-xl font-bold">
                 <Image
                   className="inline-flex pr-3"
                   src="/House.png"
@@ -51,7 +51,6 @@ const hero = () => {
             </button>
 
             <div className="absolute -bottom-8 max-sm:bottom-4 h-min">
-            {/* <div className="flex justify-start align-baseline h-min-screen"> */}
               <div className="flex items-center ">
                 <a href="#" className="flex items-center mr-6">
                   <Image src="/call.svg" alt="contact" width={40} height={40} />
