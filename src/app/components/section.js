@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 const section = () => {
   return (
@@ -10,6 +9,7 @@ const section = () => {
             <Image
               className="max-sm:w-full transform hover:scale-110 transition-all duration-300 "
               src="/section-img.png"
+              alt='/sec-img'
               width={500}
               height={500}
             ></Image>
@@ -34,7 +34,7 @@ const section = () => {
               className="inline-flex mt-11 text-[19.33px] text-pink font-normal  max-sm:ml-8 max-sm:mt-10 "
             >
               Read More
-              <img src="/right arrow.svg" alt="arrow" />
+              <Image src="/right arrow.svg" alt="arrow" width={30} height={30} />
             </a>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const footer = () => {
   return (
@@ -16,16 +16,16 @@ const footer = () => {
             <div className="max-sm:flex max-sm:justify-center">
               <div className="flex justify-center mt-12 -ml-14 max-sm:mt-2 max-sm:-ml-0">
                 <a href="#" className="mx-2">
-                  <img src="/facebook.svg" alt="fb" />
+                  <Image src="/facebook.svg" alt="fb" width={25} height={25}/>
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/youtube.svg" alt="yt" />
+                  <Image src="/youtube.svg" alt="yt" width={25} height={25}/>
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/linkedin.svg" alt="ld" />
+                  <Image src="/linkedin.svg" alt="ld" width={25} height={25}/>
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/instagram.svg" alt="insta" />
+                  <Image src="/instagram.svg" alt="insta" width={25} height={25}/>
                 </a>
               </div>
             </div>
@@ -86,7 +86,7 @@ const footer = () => {
           </div>
           <div className=" max-sm:hidden">
             <a href="#" className="flex items-center pl-4">
-              <img src="/call.svg" alt="" className="pr-2" />
+              <Image src="/call.svg" alt="" className="pr-2" width={40} height={40}/>
               16519
             </a>
           </div>

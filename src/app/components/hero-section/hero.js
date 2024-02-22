@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./hero.module.css";
 import Image from "next/image";
 
@@ -14,12 +13,24 @@ const hero = () => {
             lg:hidden xl:hidden 2xl:hidden"
             >
               <button className=" absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-16  right-10 shadow-xl font-bold">
-                <img className="inline-flex pr-3" src="/car.svg" alt="car" />
+                <Image
+                  className="inline-flex pr-3"
+                  src="/car.svg"
+                  alt="car-loan"
+                  width={45}
+                  height={25}
+                />
                 CAR LOAN
               </button>
 
               <button className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-[585px] right-10 shadow-xl font-bold">
-                <img className="inline-flex pr-3" src="/House.png" alt="home" />
+                <Image
+                  className="inline-flex pr-3"
+                  src="/House.png"
+                  alt="home-loan"
+                  width={40}
+                  height={25}
+                />
                 HOME LOAN
               </button>
             </div>
@@ -42,20 +53,25 @@ const hero = () => {
             <div className="absolute -bottom-8 max-sm:bottom-28">
               <div className="flex items-center ">
                 <a href="#" className="flex items-center mr-6">
-                  <img src="/call.svg" alt="contact" />
+                  <Image src="/call.svg" alt="contact" width={40} height={40} />
                   <p className="text-black font-bold pl-2">16519</p>
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/facebook.svg" alt="fb" />
+                  <Image src="/facebook.svg" alt="fb" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/youtube.svg" alt="yt" />
+                  <Image src="/youtube.svg" alt="yt" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/linkedin.svg" alt="ld" />
+                  <Image src="/linkedin.svg" alt="ld" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
-                  <img src="/instagram.svg" alt="insta" />
+                  <Image
+                    src="/instagram.svg"
+                    alt="insta"
+                    width={25}
+                    height={25}
+                  />
                 </a>
               </div>
             </div>
@@ -74,25 +90,57 @@ const hero = () => {
             data-aos="zoom-in"
             className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] mt-32 mr-16 shadow-xl font-bold "
           >
-            <img className="inline-flex pr-3" src="/House.png" alt="" />
+            <Image
+              className="inline-flex pr-3"
+              src="/House.png"
+              alt="home-loan"
+              width={40}
+              height={25}
+            />
             HOME LOAN
           </button>
           <button
             data-aos="zoom-in"
             className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] mt-16 mr-[500px] shadow-xl font-bold "
           >
-            <img className="inline-flex pr-3" src="/car.svg" alt="" />
+            <Image
+              className="inline-flex pr-3"
+              src="/car.svg"
+              alt="car-loan"
+              width={45}
+              height={25}
+            />
             CAR LOAN
           </button>
-          <img
-            className="absolute right-16 bottom-56"
+          <Image
+            width={120}
+            height={120}
+            className="absolute right-16 bottom-[217px] pl-[2px]"
             src="/Ellipse 1.svg"
             alt="page1"
           />
           <div className="absolute right-28 bottom-52">
-            <img className="pt-4" src="/Ellipse 2.svg" alt="page2" />
-            <img className="pt-4" src="/Ellipse 3.svg" alt="page3" />
-            <img className="pt-4" src="/Ellipse 4.svg" alt="page4" />
+            <Image
+              width={13}
+              height={13}
+              className="pt-4" 
+              src="/Ellipse 2.svg"
+              alt="page2"
+            />
+            <Image
+              width={12}
+              height={12}
+              className="pt-4 pl-[1px]"
+              src="/Ellipse 3.svg"
+              alt="page3"
+            />
+            <Image
+              width={10}
+              height={10}
+              className="pt-4 pl-[2px]"
+              src="/Ellipse 4.svg"
+              alt="page4"
+            />
           </div>
         </div>
       </div>

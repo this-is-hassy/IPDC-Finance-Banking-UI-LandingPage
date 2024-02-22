@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const partner = () => {
   return (
@@ -20,16 +20,16 @@ const partner = () => {
           >
             <ul class="flex items-center justify-center md:justify-start [&_li]:mx-16 [&_img]:max-w-none animate-infinite-scroll">
               <li>
-                <img src="./partner-1.png" alt="client-Img1" />
+                <Image src="/partner-1.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-2.png" alt="client-Img2" />
+                <Image src="/partner-2.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-3.png" alt="client-Img3" />
+                <Image src="/partner-3.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-4.png" alt="client-Img4" />
+                <Image src="/partner-4.png" width={200} height={200}></Image>
               </li>
             </ul>
             <ul
@@ -37,16 +37,16 @@ const partner = () => {
               aria-hidden="true"
             >
               <li>
-                <img src="./partner-1.png" alt="client-Img1" />
+                <Image src="/partner-1.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-2.png" alt="client-Img2" />
+                <Image src="/partner-2.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-3.png" alt="client-Img3" />
+                <Image src="/partner-3.png" width={200} height={200}></Image>
               </li>
               <li>
-                <img src="./partner-4.png" alt="client-Img4" />
+                <Image src="/partner-4.png" width={200} height={200}></Image>
               </li>
             </ul>
           </div>

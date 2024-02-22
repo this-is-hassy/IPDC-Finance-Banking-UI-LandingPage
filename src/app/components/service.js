@@ -16,7 +16,6 @@ const service = () => {
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-offset="0"
-          
         >
           <div className="grid grid-cols-4 gap-32 mx-20 pt-16 max-sm:grid-cols-1 max-sm:gap-20  ">
             <div className="overflow-hidden  rounded-lg">
@@ -25,13 +24,19 @@ const service = () => {
                 src="/service-1.png"
                 width={500}
                 height={500}
+                alt="ser-1"
               ></Image>
               <a
                 href="#"
                 className="flex justify-between pt-5 text-dumb_black font-semibold text-22px"
               >
                 IPDC SAVING SCHEMES
-                <img src="/Arrow Circle Right.svg" alt="save" />
+                <Image
+                  src="/Arrow Circle Right.svg"
+                  alt="save"
+                  width={500}
+                  height={500}
+                />
               </a>
             </div>
             <div className="overflow-hidden rounded-lg">
@@ -40,43 +45,61 @@ const service = () => {
                 src="/service-2.png"
                 width={500}
                 height={500}
+                alt="ser-2"
               ></Image>
               <a
                 href="#"
                 className="flex justify-between pt-5 text-dumb_black font-semibold text-22px"
               >
                 IPDC Personal loan
-                <img src="/Arrow Circle Right.svg" alt="Pers loan" />
+                <Image
+                  src="/Arrow Circle Right.svg"
+                  alt="Pers loan"
+                  width={500}
+                  height={500}
+                />
               </a>
             </div>
             <div className="overflow-hidden rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300 "
                 src="/service-3.png"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
+                alt="ser-3"
               ></Image>
               <a
                 href="#"
                 className="flex justify-between pt-5 text-dumb_black font-semibold text-22px"
               >
                 IPDC Deposit schemes
-                <img src="/Arrow Circle Right.svg" alt="deposit" />
+                <Image
+                  src="/Arrow Circle Right.svg"
+                  alt="deposit"
+                  width={300}
+                  height={300}
+                />
               </a>
             </div>
             <div className="overflow-hidden rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300"
                 src="/service-4.png"
-                width={500}
-                height={500}
+                width={300}
+                height={300}
+                alt="ser-4"
               ></Image>
               <a
                 href="#"
                 className="flex justify-between pt-5 text-dumb_black font-semibold text-22px"
               >
                 IPDC auto loan
-                <img src="/Arrow Circle Right.svg" alt="auto loan" />
+                <Image
+                  src="/Arrow Circle Right.svg"
+                  alt="auto loan"
+                  width={300}
+                  height={300}
+                />
               </a>
             </div>
           </div>
