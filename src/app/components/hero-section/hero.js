@@ -1,10 +1,10 @@
 import styles from "./hero.module.css";
 import Image from "next/image";
 
-const hero = () => {
+const Hero = () => {
   return (
     <>
-      <div className={styles.spacing}>
+      <section className={styles.spacing}>
         <div className="flex justify-start w-1/2 max-sm:w-full max-sm:h-min-screen max-sm:px-4">
           <div data-aos="fade-right" className="items-center">
             <div
@@ -57,18 +57,18 @@ const hero = () => {
                   <p className="text-black font-bold pl-2">16519</p>
                 </a>
                 <a href="#" className="mx-2">
-                  <Image src="/facebook.svg" alt="fb" width={25} height={25} />
+                  <Image src="/facebook.svg" alt="Facebook" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
-                  <Image src="/youtube.svg" alt="yt" width={25} height={25} />
+                  <Image src="/youtube.svg" alt="YouTube" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
-                  <Image src="/linkedin.svg" alt="ld" width={25} height={25} />
+                  <Image src="/linkedin.svg" alt="LinkedIn" width={25} height={25} />
                 </a>
                 <a href="#" className="mx-2">
                   <Image
                     src="/instagram.svg"
-                    alt="insta"
+                    alt="Instagram"
                     width={25}
                     height={25}
                   />
@@ -82,6 +82,7 @@ const hero = () => {
           <Image
             data-aos="fade-left"
             src="/hero-right-image.png"
+            alt="Hero Right Image"
             width={700}
             height={500}
             className="absolute -bottom-2 mt-2 right-20 "
@@ -143,9 +144,9 @@ const hero = () => {
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
 
-export default hero;
+export default Hero;

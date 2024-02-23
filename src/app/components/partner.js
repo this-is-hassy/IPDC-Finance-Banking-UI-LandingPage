@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-const partner = () => {
+const Partner = () => {
   return (
-    <>
-      <div className="bg-rose-50 w-full h-[449px]  max-sm:h-[370px] mt-10">
+    <section className="bg-rose-50 w-full h-[449px]  max-sm:h-[370px] mt-10">
         <div data-aos="flip-up">
           <h3 className="pt-16  text-2xl text-dumb_black font-normal flex justify-center">
             BUSINESS PARTNERS
@@ -52,14 +51,13 @@ const partner = () => {
           </div>
         </div>
 
-        <div className="pt-16 flex justify-center items-baseline">
-          <Image className="pl-4" src="/Ellipse 2.svg" alt="page2" width={30} height={30}/>
-          <Image className="pl-4" src="/Ellipse 3.svg" alt="page3" width={30} height={30}/>
-          <Image className="pl-4" src="/Ellipse 4.svg" alt="page4" width={30} height={30}/>
-        </div>
-      </div>
-    </>
+        <nav className="pt-16 flex justify-center items-baseline">
+          <a href="#"><Image className="pl-4" src="/Ellipse 2.svg" alt="page2" width={30} height={30}/></a>
+          <a href="#"><Image className="pl-4" src="/Ellipse 3.svg" alt="page3" width={30} height={30}/></a>
+          <a href="#"><Image className="pl-4" src="/Ellipse 4.svg" alt="page4" width={30} height={30}/></a>
+        </nav>
+    </section>
   );
 };
 
-export default partner;
+export default Partner;

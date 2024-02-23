@@ -2,22 +2,23 @@ import Image from "next/image";
 
 const service = () => {
   return (
-    <>
-      <div className="w-full h-screen max-sm:h-min  bg-rose-50">
-        <h3 className="flex justify-center font-bold text-dumb_black text-36px pt-12">
-          Our Services
-        </h3>
-        <p className="flex justify-center max-sm:px-4 max-sm:text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus
-          mattis vel feugiat erat tortor eleifend.
-        </p>
-        <div
+    <main className="w-full h-screen max-sm:h-min  bg-rose-50">
+        <header>
+          <h1 className="flex justify-center font-bold text-dumb_black text-36px pt-12">
+            Our Services
+          </h1>
+          <p className="flex justify-center max-sm:px-4 max-sm:text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus
+            mattis vel feugiat erat tortor eleifend.
+          </p>
+        </header>
+        <section
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-offset="0"
         >
           <div className="grid grid-cols-4 gap-32 mx-20 pt-16 max-sm:grid-cols-1 max-sm:gap-12 max-sm:mx-12  ">
-            <div className="overflow-hidden  rounded-lg">
+            <article className="overflow-hidden  rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300"
                 src="/service-1.png"
@@ -37,8 +38,8 @@ const service = () => {
                   height={50}
                 />
               </a>
-            </div>
-            <div className="overflow-hidden rounded-lg">
+            </article>
+            <article className="overflow-hidden rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300 "
                 src="/service-2.png"
@@ -58,8 +59,8 @@ const service = () => {
                   height={50}
                 />
               </a>
-            </div>
-            <div className="overflow-hidden rounded-lg">
+            </article>
+            <article className="overflow-hidden rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300 "
                 src="/service-3.png"
@@ -79,8 +80,8 @@ const service = () => {
                   height={50}
                 />
               </a>
-            </div>
-            <div className="overflow-hidden rounded-lg">
+            </article>
+            <article className="overflow-hidden rounded-lg">
               <Image
                 className="transform hover:scale-110 transition-all duration-300"
                 src="/service-4.png"
@@ -100,11 +101,10 @@ const service = () => {
                   height={50}
                 />
               </a>
-            </div>
+            </article>
           </div>
-        </div>
-      </div>
-    </>
+        </section>
+    </main>
   );
 };
 

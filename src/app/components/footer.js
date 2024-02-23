@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
-    <>
+    <footer>
       <div className="h-[250px] max-sm:h-[80px] w-full">
         <div className="grid grid-cols-5 gap-16 mt-12 max-sm:mt-8 max-sm:grid-cols-1">
-          <div className="">
+          <section>
             <h5 className="text-black max-sm:flex max-sm:justify-center ">
             About the company
             </h5>
@@ -29,62 +29,40 @@ const footer = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <h6 className=" max-sm:hidden">
+          </section>
+          <nav>
+            <h6 className=" max-sm:hidden">
             Products
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">CSR Activities</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Green Banking</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">News</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Ongoing Campgain</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Updates</a>
-            </p>
-          </h6>
-          <div className=" max-sm:hidden">
-            Get Started
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Career</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Contact Us</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Government Securities</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Examples</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">NIS</a>
-            </p>
-          </div>
-          <div className=" max-sm:hidden">
-            About
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">IPDC at a Glance</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Mission, Vision & Values</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Corporate Governance</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Shareholders</a>
-            </p>
-            <p className="text-14px text-dark_grey mt-4">
-              <a href="#">Investor Relations</a>
-            </p>
-          </div>
-          <div className=" max-sm:hidden">
+            </h6>
+            <ul>
+              <li><a href="#">CSR Activities</a></li>
+              <li><a href="#">Green Banking</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Ongoing Campgain</a></li>
+              <li><a href="#">Updates</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <h6>Get Started</h6>
+            <ul>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Government Securities</a></li>
+              <li><a href="#">Examples</a></li>
+              <li><a href="#">NIS</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <h6>About</h6>
+            <ul>
+              <li><a href="#">IPDC at a Glance</a></li>
+              <li><a href="#">Mission, Vision & Values</a></li>
+              <li><a href="#">Corporate Governance</a></li>
+              <li><a href="#">Shareholders</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </nav>
+          <div>
             <a href="#" className="flex items-center pl-4">
               <Image src="/call.svg" alt="" className="pr-2" width={40} height={40}/>
               16519
@@ -92,8 +70,8 @@ const footer = () => {
           </div>
         </div>
       </div>
-    </>
+    </footer>
   );
 };
 
-export default footer;
+export default Footer;
