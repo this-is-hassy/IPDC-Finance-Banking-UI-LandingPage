@@ -12,7 +12,7 @@ const hero = () => {
               className="md:hidden 
             lg:hidden xl:hidden 2xl:hidden"
             >
-              <button className=" absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-2  right-10 shadow-xl font-bold">
+              <button className=" absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-2  right-4 shadow-xl font-bold">
                 <Image
                   className="inline-flex pr-3"
                   src="/car.svg"
@@ -23,7 +23,7 @@ const hero = () => {
                 CAR LOAN
               </button>
 
-              <button className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] -bottom-[530px] right-10 shadow-xl font-bold">
+              <button className="absolute text-dumb_black  bg-white px-6 py-4 text-12px rounded-[50px] top-16 left-4 shadow-xl font-bold">
                 <Image
                   className="inline-flex pr-3"
                   src="/House.png"
@@ -35,7 +35,7 @@ const hero = () => {
               </button>
             </div>
 
-            <h1 className="text-6xl text-black font-extrabold font-sans mt-24 w-4/5 max-sm:mt-24 max-sm:w-full">
+            <h1 className="text-6xl text-black font-extrabold font-sans mt-24 w-4/5 max-sm:mt-36 max-sm:w-full">
               Chase Your Dream with us
             </h1>
             <p className="text-16px font-medium text-dark_grey mt-6 w-2/3  ">
