@@ -3,8 +3,8 @@ import Image from "next/image";
 const feedback = () => {
   return (
     <>
-      <section className="h-min-screen w-full ">
-        <div data-aos="zoom-in-down">
+      <div data-aos="zoom-in-down">
+        <section className="h-min-screen w-full ">
           <header className="pt-24 font-bold text-36px flex justify-center text-dumb_black ml-4 max-sm:text-30px max-sm:ml-0 max-sm:pt-10">
             <h2>Customer Experience</h2>
           </header>
@@ -97,8 +97,8 @@ const feedback = () => {
               </p>
             </div>
           </article>
-        </div>
-      </section>
+        </section>
+      </div>
       ;
     </>
   );

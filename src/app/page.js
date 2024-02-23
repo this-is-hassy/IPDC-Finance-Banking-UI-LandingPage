@@ -10,14 +10,14 @@ import Footer from "./components/footer";
 import Hero from "./components/hero-section/hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 200,
       easing: "ease",
-      offset: 200,
+      // offset: 200,
     });
   }, []);
   return (
