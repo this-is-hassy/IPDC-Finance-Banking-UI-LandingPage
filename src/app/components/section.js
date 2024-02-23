@@ -16,7 +16,7 @@ const section = () => {
           </div>
 
           <div className="w-1/2 max-sm:w-full max-sm:block pt-16 max-sm:pt-0">
-            <h4 className="text-36px font-bold text-dumb_black  max-sm:ml-8 max-sm:mt-7">
+            <h4 className="flex max-sm:justify-center text-3xl font-bold text-dumb_black max-sm:mt-7">
               IPDC AT A GLANCE
             </h4>
             <p className="w-2/3 font-normal text-16px text-dark_grey mt-4 max-sm:justify-center max-sm:w-4/5 max-sm:ml-8 text-justify">
@@ -31,7 +31,7 @@ const section = () => {
             </p>
             <a
               href="#"
-              className="inline-flex mt-11 text-[19.33px] text-pink font-normal  max-sm:ml-8 max-sm:mt-10 "
+              className="inline-flex mt-11 text-[19.33px] text-pink font-normal  max-sm:ml-8 max-sm:mt-6 "
             >
               Read More
               <Image src="/right arrow.svg" alt="arrow" width={30} height={30} />

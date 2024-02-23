@@ -4,10 +4,10 @@ const feedback = () => {
   return (
     <div className="h-min-screen w-full ">
       <div data-aos="zoom-in-down">
-        <h2 className="pt-24 font-bold text-36px flex justify-center text-dumb_black ml-4 max-sm:text-18px max-sm:ml-0 max-sm:pt-16">
-          Creating Extraordinary Customer Experience
+        <h2 className="pt-24 font-bold text-36px flex justify-center text-dumb_black ml-4 max-sm:text-30px max-sm:ml-0 max-sm:pt-10">
+           Customer Experience
         </h2>
-        <p className="mt-2 font-normal text-light_gray text-16px w-3/5 mx-auto  max-sm:w-4/5 max-sm:pl-6 text-center">
+        <p className="mt-2 font-normal text-light_gray text-16px w-3/5 mx-auto  max-sm:w-full max-sm:pl-6 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           laborum
         </p>
