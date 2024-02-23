@@ -15,9 +15,9 @@ import { useEffect } from 'react';
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 200,
+      duration: 1200,
       easing: "ease",
-      // offset: 200,
+      offset: 200,
     });
   }, []);
   return (
