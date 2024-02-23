@@ -7,7 +7,7 @@ const feedback = () => {
         <h2 className="pt-24 font-bold text-36px flex justify-center text-dumb_black ml-4 max-sm:text-30px max-sm:ml-0 max-sm:pt-10">
            Customer Experience
         </h2>
-        <p className="mt-2 font-normal text-light_gray text-16px w-3/5 max-sm:px-4 max-sm:w-full text-center">
+        <p className="flex justify-center mt-2 font-normal text-light_gray text-16px  max-sm:px-4 max-sm:w-full text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           laborum
         </p>

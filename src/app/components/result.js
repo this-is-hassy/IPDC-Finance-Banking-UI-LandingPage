@@ -4,7 +4,7 @@ const result = () => {
   return (
     <>
       <div className="h-min w-full">
-        <div className="max-sm:pb-8">
+        <div className="pb-8">
           <h4 className="flex justify-center text-36px font-semibold text-dumb_black pt-10 max-sm:text-22px ">
             0ur best results for the year
           </h4>
